@@ -1,3 +1,7 @@
+.nav-menu a {
+  color: #626262;
+  text-decoration: none;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
