@@ -40,4 +40,20 @@
   height: 70px;
   border-radius: 75px;
   margin-top: 30px;
+  color: white;
+  background-color: rgb(77, 110, 77);
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-right img {
+  width: 600px; /* Set your desired width */
+  height: 350px; /* Maintains aspect ratio */
+  object-fit: cover; /* Or 'contain' for different fit */
+  border-radius: 12px; /* Optional: rounded corners */
 }
