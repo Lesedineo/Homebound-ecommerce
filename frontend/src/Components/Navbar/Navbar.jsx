@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import main1 from "../Assests/main1.png";
 import cart from "../Assests/cart_icon.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import LoginSignup from "../../Pages/LoginSignup";
 import ShopCategory from "../../Pages/ShopCategory";
 import Home from "../../Pages/Home";
@@ -21,7 +21,7 @@ export const Navbar = () => {
             setMenu("home");
           }}
         >
-          <NavLink to="/" end>Home</NavLink>
+          <Link to="/">Home</Link>
           {menu === "home" ? <hr /> : <></>}
         </li>
         <li
