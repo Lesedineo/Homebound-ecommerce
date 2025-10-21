@@ -1,14 +1,14 @@
-.popular {
+.new-collections {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.popular-item img {
+.new-collections img {
   width: 350px;
   height: 200px;
 }
-.popular-item {
+.collections {
   margin-top: 50px;
   display: flex;
   overflow-x: auto;
@@ -17,13 +17,13 @@
   gap: 40px; /* Increase this value for more space between items */
   align-items: center;
 }
-.popular h1 {
+.new-collections h1 {
   color: rgb(30, 29, 29);
   font-size: 50px;
   font-weight: 600;
 }
 
-.popular hr {
+.new-collections hr {
   width: 200px;
   height: 6px;
   border-radius: 10px;

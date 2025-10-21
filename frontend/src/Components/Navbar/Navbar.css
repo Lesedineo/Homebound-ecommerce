@@ -1,5 +1,5 @@
 .nav-menu a {
-  color: #626262;
+  color: rgb(39, 34, 34);
   text-decoration: none;
 }
 .navbar {
@@ -9,6 +9,7 @@
   padding: 16px;
   box-shadow: 0 1px 3px -2px black;
   position: relative;
+  background: rgba(165, 120, 120, 0.489);
 }
 
 .nav-logo img {
@@ -23,8 +24,8 @@
   list-style: none;
   align-items: center;
   gap: 24px;
-  color: #626262;
-  font-size: 20px;
+
+  font-size: 24px;
   font-weight: 500;
   margin-right: 16px;
 }
@@ -49,12 +50,12 @@
   gap: 45px;
 }
 .nav-login-cart button {
-  width: 147px;
+  width: 140px;
   height: 48px;
   border-radius: 75px;
   outline: none;
-  border: 3px solid #7a7a7a;
-  background-color: rgb(121, 99, 99);
+  border: 3px solid rgb(18, 16, 16);
+  background-color: rgba(165, 120, 120, 0.489);
   color: white;
   font-size: 20px;
   font-weight: 500;
