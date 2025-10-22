@@ -19,7 +19,8 @@
 }
 .popular h1 {
   color: rgb(30, 29, 29);
-  font-size: 50px;
+  margin-top: 10px;
+  font-size: 40px;
   font-weight: 600;
 }
 

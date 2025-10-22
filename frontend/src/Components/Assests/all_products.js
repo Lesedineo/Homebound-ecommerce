@@ -35,7 +35,7 @@ import p34_img from "./product_34.jpg";
 import p35_img from "./product_35.jpg";
 import p36_img from "./product_36.jpg";
 
-let all_product = [
+let all_products = [
   {
     id: 1,
     name: "etheral-curtain",
@@ -326,4 +326,4 @@ let all_product = [
   },
 ];
 
-export default all_product;
+export default all_products;

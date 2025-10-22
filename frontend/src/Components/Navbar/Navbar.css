@@ -9,7 +9,19 @@
   padding: 16px;
   box-shadow: 0 1px 3px -2px black;
   position: relative;
-  background: rgba(165, 120, 120, 0.489);
+  background: linear-gradient(
+      rgba(165, 120, 120, 0.377),
+      rgba(165, 120, 120, 0.402)
+    ),
+    url("../Assests/navbarbackground.jpg") no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .nav-logo img {
@@ -42,7 +54,7 @@
   width: 80%;
   height: 3px;
   border-radius: 10px;
-  background-color: rgb(121, 99, 99);
+  background-color: rgba(121, 99, 99, 0.288);
 }
 .nav-login-cart {
   display: flex;
@@ -50,7 +62,7 @@
   gap: 45px;
 }
 .nav-login-cart button {
-  width: 140px;
+  width: 138px;
   height: 48px;
   border-radius: 75px;
   outline: none;
@@ -62,7 +74,7 @@
   cursor: pointer;
 }
 .nav-login-cart button:hover {
-  background-color: white;
+  background-color: black;
   color: rgb(121, 99, 99);
   border: 3px solid rgb(121, 99, 99);
 }
@@ -78,5 +90,5 @@
   font-size: 14px;
   font-weight: 500;
   margin-top: -35px;
-  margin-left: -55px;
+  margin-left: -50px;
 }

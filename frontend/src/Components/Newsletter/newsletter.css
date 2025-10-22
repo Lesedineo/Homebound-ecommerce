@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 0px 140px;
+  padding: 60px 140px;
   margin-bottom: 150px;
   background: linear-gradient(
     110.3deg,
@@ -23,34 +23,33 @@
 .newsletter p {
   color: charcoal;
   font-size: 22px;
-  font-weight: 500;
-  margin-top: 20px;
 }
 .newsletter div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  width: 730px;
+  width: 650px;
   height: 70px;
   border-radius: 80px;
   border: 1px solid white;
 }
 .newsletter input {
-  width: 500px;
-  height: 30px;
+  width: 300px;
+  margin-left: 30px;
+
   border: none;
   outline: none;
-  border-radius: 80px;
-  font-size: 16px;
+
+  font-size: 20px;
   font-family: poppins;
   color: grey;
 }
 .newsletter div button {
-  width: 210px;
-  height: 70px;
+  width: 150px;
+  height: 50px;
   border-radius: 80px;
-  margin-right: 5px;
+
   color: white;
   background-color: rgb(37, 31, 31);
   font-size: 16px;
