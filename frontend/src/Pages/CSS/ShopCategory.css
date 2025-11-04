@@ -16,3 +16,30 @@ p {
   margin: 10px 0;
   font-weight: 600;
 }
+.shopcategory-products {
+  margin: 5px 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 35px;
+  object-fit: cover;
+}
+.shopcategory-loadmore button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 140px auto;
+  width: 200px;
+  height: 59px;
+  border-radius: 75px;
+  background: #ededed;
+  color: #4b4848;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #544e4e;
+  cursor: pointer;
+}
+.shopcategory-loadmore button:hover {
+  background-color: #544e4ef1;
+  color: white;
+  border: 3px solid #ededed;
+}

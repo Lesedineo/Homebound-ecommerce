@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 .nav-login-cart button:hover {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.45);
   color: rgb(121, 99, 99);
   border: 3px solid rgb(121, 99, 99);
 }
