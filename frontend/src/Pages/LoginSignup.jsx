@@ -11,7 +11,7 @@ const LoginSignup = () => {
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
         </div>
-        <button>CONTINUE</button>
+        <button className="continue-button">CONTINUE</button>
         <p className="loginsignup-login">
           Already have an account? <a href="/login">Log In Here</a>
         </p>
