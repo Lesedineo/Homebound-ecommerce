@@ -5,13 +5,14 @@ export const Breadcrumb = (props) => {
   const { product } = props;
   return (
     <div
-      className="breadcrum
+      className="breadcrumb
     "
     >
       HOME <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-      {product.category}{" "}
+      {product.category || "loading..."}{" "}
       <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-      {product.name}
+      {product?.name || ""}
     </div>
   );
 };
+export default Breadcrumb;
