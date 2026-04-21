@@ -53,3 +53,27 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .offers {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .offers img {
+    width: 100%;
+    max-width: 300px;
+  }
+  .offers-left h1 {
+    font-size: 40px;
+  }
+  .offers-left p {
+    font-size: 18px;
+  }
+  .offers-left button {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+}

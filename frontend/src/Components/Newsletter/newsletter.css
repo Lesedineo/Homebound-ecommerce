@@ -56,3 +56,33 @@
 
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .newsletter {
+    width: 90%;
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+  }
+  .newsletter h1 {
+    font-size: 32px;
+  }
+  .newsletter p {
+    font-size: 18px;
+  }
+  .newsletter div {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .newsletter input {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .newsletter div button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

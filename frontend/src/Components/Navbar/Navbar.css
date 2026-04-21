@@ -9,10 +9,8 @@
   padding: 16px;
   box-shadow: 0 1px 3px -2px black;
   position: relative;
-  background: linear-gradient(
-      rgba(165, 120, 120, 0.377),
-      rgba(165, 120, 120, 0.402)
-    ),
+  background:
+    linear-gradient(rgba(165, 120, 120, 0.377), rgba(165, 120, 120, 0.402)),
     url("../Assests/navbarbackground.jpg") no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(6px);
@@ -40,6 +38,8 @@
   font-size: 24px;
   font-weight: 500;
   margin-right: 16px;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 .nav-menu li {
   display: flex;
@@ -91,4 +91,34 @@
   font-weight: 500;
   margin-top: -35px;
   margin-left: -50px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 8px;
+    flex-wrap: wrap;
+  }
+  .nav-logo img {
+    width: 120px;
+  }
+  .nav-menu {
+    gap: 8px;
+    font-size: 14px;
+    margin-right: 8px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .nav-login-cart {
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .nav-login-cart button {
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .nav-cart-count {
+    margin-left: -30px;
+  }
 }

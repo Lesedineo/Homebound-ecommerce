@@ -30,3 +30,16 @@
   border-radius: 10px;
   background: grey;
 }
+
+@media (max-width: 768px) {
+  .new-collections img {
+    width: 250px;
+    height: 150px;
+  }
+  .new-collections h1 {
+    font-size: 28px;
+  }
+  .new-collections hr {
+    width: 150px;
+  }
+}

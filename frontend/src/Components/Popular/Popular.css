@@ -30,3 +30,16 @@
   border-radius: 10px;
   background: grey;
 }
+
+@media (max-width: 768px) {
+  .popular-item img {
+    width: 250px;
+    height: 150px;
+  }
+  .popular h1 {
+    font-size: 28px;
+  }
+  .popular hr {
+    width: 150px;
+  }
+}

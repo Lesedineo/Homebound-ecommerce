@@ -57,3 +57,30 @@
   object-fit: cover; /* Or 'contain' for different fit */
   border-radius: 12px; /* Optional: rounded corners */
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .hero-left {
+    padding-left: 0;
+    text-align: center;
+    gap: 15px;
+  }
+  .hero-left h2 {
+    font-size: 28px;
+  }
+  .hero-left p {
+    font-size: 24px;
+  }
+  .hero-hand-icon img {
+    width: 80px;
+  }
+  .hero-right img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
