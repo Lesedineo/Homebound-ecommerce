@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project
+
+Purpose: Frontend for an e-commerce storefront — product browsing, collections, cart and checkout UI, and basic authentication pages.
+
+Languages & tools used:
+
+- JavaScript (React) — primary application code using functional components and hooks.
+- HTML & CSS — component styles and page markup; per-component `.css` files live alongside components.
+- JSON — manifest and build metadata contained in `public/` and `build/`.
+- Create React App tooling — development server, test runner, and production build pipeline.
+
+Structure highlights:
+
+- `src/Components/` — reusable UI components (e.g., `Navbar`, `Hero`, `Item`, `Footer`, `NewCollections`, `Popular`).
+- `src/Pages/` — page-level components (`Home`, `ShopCategory`, `Product`, `Cart`, `LoginSignup`).
+- `src/Context/ShopContext.jsx` — application state via React Context and hooks (cart, selected products, filters).
+- `src/Components/Assests/` — local product/sample data files (`all_products.js`, `data.js`, `new_collections.js`).
+- `public/` & `build/` — static assets and production output with hashed bundles in `build/static/`.
+
+Key aspects:
+
+- Component-driven UI with per-component CSS for modular styling.
+- Lightweight state management using React Context for cart and product state.
+- Local mock data allows UI development without a backend; intended to be replaced by API integration.
+- Standard CRA scripts: `npm start`, `npm test`, `npm run build`, `npm run eject`.
+
+- Suggested next steps: add TypeScript for strong typing, integrate a backend API for real product data and persistence, expand test coverage, and run accessibility audits.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +96,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+
+- Project by Lesedi Molale
